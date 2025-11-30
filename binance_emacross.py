@@ -30,7 +30,7 @@ load_dotenv()
 # Strategy config params
 symbol = "BTCUSDT-PERP" #you can change to ETHUSDT-PERP
 instrument_id = InstrumentId.from_str(f"{symbol}.{BINANCE}")
-order_qty = Decimal("1.10") # SET TRADE SIZE FROM 0.01, 0.02, 0.04 , 0.1 ETC
+order_qty = Decimal("0.02") # SET TRADE SIZE FROM 0.01, 0.02, 0.04 , 0.1 ETC
 
 # Configure the trading node
 config_node = TradingNodeConfig(
